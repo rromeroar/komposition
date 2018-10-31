@@ -127,3 +127,13 @@ Run it from the command line:
 ```shell
 komposition
 ```
+
+## Possible incompatibility with older GTK+ version
+
+If, in the proces of the installation, you found an error like:
+
+```
+Not in scope: data constructor ‘Gtk.FileChooserNative’
+```
+
+it means that there are an incompatibiliy with GTK+ version. Its detected on Ubuntu 16.04 and, if that is the case four you, can be fixes on 18.04. Also you can try to compile a newer version of GTK+ from source.
